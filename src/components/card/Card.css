@@ -1,14 +1,15 @@
 .Compact__card{
     display: flex;
     flex: 1;
-    height: 7rem, !important;
+    height: 7rem !important;
     border-radius: 0.7rem;
     color: white;
     position: relative;
     cursor: pointer;
+    padding: 1.5rem;
 }
 .Compact__card:hover{
-    box-shadow: none;
+    box-shadow: none5!important;
 }
 
 .radial__box{
@@ -36,4 +37,21 @@
 .radial__box>span{
     font-size: 17px;
     font-weight: bold;
+}
+/* details */
+.detail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.detail>span:nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+}
+.detail>span:nth-child(3){
+    font-size: 12px;
+   
 }
