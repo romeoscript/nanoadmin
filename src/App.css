@@ -18,7 +18,7 @@
     #f3c6f1 90.85%
   );
   font-family: sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -30,5 +30,6 @@
   border-radius: 2rem;
   background-color: var(--glass);
   overflow: hidden;
+  gap: 20px;
   grid-template-columns: 11rem auto 20rem;
 }
