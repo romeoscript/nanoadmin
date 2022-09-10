@@ -24,7 +24,7 @@
   display: flex;
 }
 .AppGlass{
-  display: grid;
+  display: flex;
   height: 97%;
   width: 97%;
   border-radius: 2rem;
@@ -32,4 +32,10 @@
   overflow: hidden;
   gap: 20px;
   grid-template-columns: 11rem auto 20rem;
+}
+.grid_item{
+  display: grid;
+  grid-template-columns: auto 20rem;
+  margin-left:190px;
+  gap: 2%;
 }
