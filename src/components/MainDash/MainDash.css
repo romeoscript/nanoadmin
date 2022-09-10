@@ -3,3 +3,17 @@
     flex-direction:column;
     justify-content: space-evenly;
 }
+
+@media (max-width:1200px){
+    .main__dash{
+       margin-top: 2rem;
+        justify-content: flex-start;
+    }
+    
+}
+@media (max-width:768px){
+    .main__dash{
+      align-items: center;
+    }
+    
+}

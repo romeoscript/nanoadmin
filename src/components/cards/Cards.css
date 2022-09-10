@@ -5,3 +5,20 @@
 .parentContainer{
     width: 100%;
 }
+
+@media (max-width:1200px){
+    .cards{
+       flex-direction: column;
+    }
+    .parentContainer{
+        height: 9rem;
+        margin: 00.5rem;
+    }
+    
+}
+@media (max-width:768px){
+    .cards{
+       width: 90%;
+    }
+    
+}

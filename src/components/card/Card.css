@@ -82,3 +82,21 @@ font-size: 16px;
 .chartContainer{
     width: 50%;
 }
+
+@media (max-width:1200px){
+   
+    .expanded__card{
+        top: 2rem;
+        height: 80vh;
+        left: 6rem;
+    }
+}
+@media (max-width:1200px){
+   
+    .expanded__card{
+        top: 8rem;
+        height: 50%;
+        left: 15px;
+        width: 80%;
+    }
+}

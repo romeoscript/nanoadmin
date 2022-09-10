@@ -39,3 +39,20 @@
   margin-left:190px;
   gap: 2%;
 }
+@media (max-width:768px) {
+  .grid_item{
+    display: grid;
+    grid-template-columns: 1fr!important;
+   
+  }
+  .AppGlass{
+    width: auto;
+  }
+  .AppGlass::-webkit-scrollbar{
+   display: none!important;
+  }
+  .grid_item::-webkit-scrollbar{
+    display: none!important;
+   }
+  
+}

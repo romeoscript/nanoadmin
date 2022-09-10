@@ -45,3 +45,8 @@
     background: #FF919D;
     cursor: pointer;
 }
+@media (max-width:1200px) {
+    .rightside{
+        width: 100%!important;
+    }
+}
